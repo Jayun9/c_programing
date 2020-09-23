@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//양방향 리스트 구현
 typedef struct Node{
     int data;
     struct Node *prev;
