@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #define SIZE 10000
 #define INF 999999
-
+//링크드 리스트로 스택 구현
 typedef struct Node{
     int data;
     struct Node *next;
