@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+//스택으로 계산기 만들기, 후위표기법으로 변경 후 스택 
+// 처리하면서 계산 main에 a배열에 피연산자 연산자 띄어쓰기 해서 수식 입력
 char res[1000] = "";
 
 typedef struct Node{
