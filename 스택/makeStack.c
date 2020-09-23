@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #define SIZE 10000
 #define INF 999999
-
+//스택 만들기
 int stack[SIZE];
 int top = -1;
 
