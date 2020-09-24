@@ -31,4 +31,4 @@ int main(void) {
         printf("%d ", a[i]);
     }
     return 0;
-}
+}//ÁÖ¼®
