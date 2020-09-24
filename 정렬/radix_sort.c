@@ -31,4 +31,4 @@ int main(void) {
         printf("%d ", a[i]);
     }
     return 0;
-}//주석
+}//주석gg
