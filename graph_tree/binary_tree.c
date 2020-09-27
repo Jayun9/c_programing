@@ -15,7 +15,7 @@ Node* initNode(int data, Node* leftchild, Node* rightCilde){
     return node;
 }
 
-//ÀüÀ§ ¼øÈ¸
+//ì „ìœ„ ìˆœíšŒ
 void preorder(Node* root){
     if (root){
         printf("%d ", root->data);
@@ -24,7 +24,7 @@ void preorder(Node* root){
     }
 }
 
-//ÁßÀ§ ¼øÈ¸
+//ì¤‘ìœ„ ìˆœíšŒ
 void inorder(Node* root){
     if (root){
         inorder(root->leftChild);
@@ -33,7 +33,7 @@ void inorder(Node* root){
     }
 }
 
-//ÈÄÀ§ ¼øÈ¸
+//í›„ìœ„ ìˆœíšŒ
 void postorder(Node* root){
     if(root){
         postorder(root->leftChild);
@@ -49,6 +49,7 @@ void freeAll(Node* root){
         free(root);
     }
 }
+
 
 int main(void){
     Node *n7 = initNode(50, NULL, NULL);
