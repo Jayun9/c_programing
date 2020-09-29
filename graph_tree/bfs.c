@@ -87,5 +87,9 @@ int main(void){
         addFront(a[y],x);
     }
     bfs(1);
+    for (int i = 0; i < n; i++){
+        free(a[i]);
+    }
+    free(a);
     return 0;
 }
